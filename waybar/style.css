@@ -1,0 +1,251 @@
+
+/* ======================================== */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: JetBrainsMono Nerd Font;
+  /* font-size: 16px; */
+}
+
+window#waybar {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.modules-left {
+  /* background-color: #1e2030; */
+  /* background-color: green; */
+  border-radius: 8px;
+  padding-right: 10px;
+}
+
+.modules-center {
+  background-color: rgba(30,32,48,0.7);
+  border-radius: 8px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.modules-right {
+  /* background-color: #1e2030; */
+  /* background-color: red; */
+  border-radius: 8px;
+  padding-left: 15px;
+}
+
+
+#custom-launcher {
+  background-color: rgba(30,32,48,0.7);
+  font-size: 17px;
+  color: #008cff;
+  padding-right: 15px;
+  border-radius: 8px;
+}
+
+#cpu,
+#memory,
+#temperature {
+  font-size: 14px;
+  background-color: rgba(30,32,48,0.7);
+}
+
+#cpu {
+  color: #eed49f;
+  padding: 0px 10px 0px 12px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+#memory {
+  color: #a6da95;
+  padding: 0px 10px 0px 0px;
+}
+
+#temperature {
+  color: #8aadf4;
+  padding: 0px 12px 0px 0px;
+  border-radius: 0px 8px 8px 0px;
+}
+
+#custom-filler,
+#custom-playerctl,
+#disk,
+#custom-pacman,
+#custom-window-name,
+#custom-pacman-update-icon,
+#custom-pacman-update {
+  background-color: rgba(30,32,48,0.7);
+}
+
+#disk {
+  color: white;
+  padding-left: 10px;
+  margin-left: 10px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+#custom-playerctl {
+  color: white;
+}
+
+#custom-window-name {
+  margin-right: 10px;
+}
+
+#custom-pacman-update-icon {
+  background-color: #8bd5ca;
+  color: #181926;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#custom-pacman-update {
+  color: #8bd5ca;
+  margin: 5px 10px 5px 0px;
+}
+
+#custom-pacman {
+  border-radius: 0px 8px 8px 0px;
+  padding-right: 10px;
+}
+
+
+/* ================================== center ================================= */
+
+
+
+#workspaces button:nth-child(1) label {
+  color: #8aadf4;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+
+#workspaces button:nth-child(2) label {
+  color: #ed8796;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+
+#workspaces button:nth-child(3) label {
+  color: #a6da95;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+
+#workspaces button:nth-child(4) label {
+  color: #c6a0f6;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+
+#workspaces button:nth-child(5) label {
+  color: #f4dbd6;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+
+#workspaces button:nth-child(6) label {
+  color: #f5a97f;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+
+#workspaces button:nth-child(7) label {
+  color: #f5a97f;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+
+#workspaces button:nth-child(8) label {
+  color: #f5a97f;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+
+#workspaces button:nth-child(9) label {
+  color: #f5a97f;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+
+
+/* ================================= right =============================== */
+
+
+#battery {
+  border-radius: 8px;
+  background-color: rgba(30,32,48,0.7);
+  color: #a6da95;
+  padding: 0px 15px;
+}
+
+#pulseaudio,
+#backlight {
+  background-color: rgba(30,32,48,0.7);
+  padding: 0px 15px;
+}
+
+#backlight {
+  color: #eed49f;
+  padding: 0px 10px 0px 10px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+#pulseaudio {
+  color: #91d7e3;
+  padding: 0px 10px 0px 0px;
+  border-radius: 0px 8px 8px 0px;
+}
+
+#custom-right-arr {
+  color: #8aadf4;
+}
+
+#custom-pacman {
+  color: #8aadf4;
+}
+
+#network {
+  background-color: rgba(30,32,48,0.7);
+  color: #c6a0f6;
+  border-radius: 8px;
+  padding: 0px 15px;
+}
+
+#custom-dot {
+  color: #6e738d;
+  padding-right: 10px;
+}
+
+#custom-dot-alt {
+  color: #a5adcb;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#custom-clock-icon {
+  color: #cad3f5;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#custom-filler {
+  color: #cad3f5;
+  padding-right: 10px;
+}
+
+#clock {
+  margin-left: 5px;
+  background-color: rgba(30,32,48,0.7);
+  padding-left: 10px;
+  color: rgba(255, 255, 255, 0.747);
+  border-radius: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */
+
